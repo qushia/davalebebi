@@ -1,0 +1,142 @@
+.head {
+  background-color: rgb(4, 4, 167);
+  height: 120px;
+  margin-top: 0px;
+   
+}
+.title {
+display: flex;
+justify-content: center;
+align-items: center;
+color:white;
+
+}
+.head2{
+  background-color: white;
+  border-bottom: 2px solid black;
+  height: 35px;
+  
+}
+
+.title2 {
+  display: flex;
+  
+  
+}
+.hover {
+  margin-right: 50px;
+  margin-top: 10px;
+  color: blue;
+}
+.hover :hover{
+  color:aqua;
+cursor: pointer;
+}
+.content{
+  width: 1500px;
+  height:320px;
+  border-top:1px solid black;
+  background-color: white;
+}
+.ads {
+  width: 1500px;
+  height: 950px;
+  background-color:white;
+
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  column-gap: 50px;
+ justify-content: space-around;
+  
+}
+.data {
+  color: gray;
+}
+.content {
+  display: flex;
+  justify-content: space-around;
+}
+.airplane {
+  width: 600px;
+  height: 300px;
+  
+}
+.reklama {
+  width: 394px;
+  height: 1272px;
+  background-color: white;
+  border: 1px solid black;
+position: absolute;
+top: 160px;
+right: -1px;
+background-image: url(th\ \(1\).jpg);
+}
+.footer {
+  width: 1896px;
+  height: 100px;
+  background-color:rgb(4, 4, 167);
+}
+.hover2 {
+  margin-right: 50px;
+  margin-top: 10px;
+  color: white;
+  margin-left: 50px;
+  
+}
+.footer {
+  display: flex;
+  
+}
+.hover2 :hover {
+  color: gray;
+  cursor: pointer;
+}
+.conteiner {
+  overflow: hidden;
+  cursor: pointer;
+}
+.image2 {
+  width: 200px;
+  height: 200px;
+  margin-left: 50px;
+ 
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 140px;
+  flex-direction: column;
+}
+.conteiner{
+  width: 240px;
+  height: 250px;
+  border-radius: 20px;
+  overflow: hidden;
+  cursor: pointer;
+  margin: 30px;
+
+}
+.conteiner img{
+  width: 100%;
+  height: 100%;
+  
+}
+.conteiner img:hover{
+  filter: hue-rotate(90dge);
+  transform: scale(1.3) rotate(7deg);
+}
+.logo {
+  width: 80x;
+  height: 80px;
+  position: absolute;
+  bottom: -609px;
+  right: 925px;
+ 
+ 
+}
+.reklama h1{
+  position: absolute;
+  right: 80px;
+  bottom: 1108px;
+}
